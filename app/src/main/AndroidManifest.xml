@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zesters.fenal" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".anadeLibro"
+            android:label="@string/title_activity_anade_libro" >
+        </activity>
+        <activity
+            android:name=".anadeCliente"
+            android:label="@string/title_activity_anade_cliente" >
+        </activity>
+        <activity
+            android:name=".buscaCliente"
+            android:label="@string/title_activity_busca_cliente" >
+        </activity>
+        <activity
+            android:name=".buscaISBN"
+            android:label="@string/title_activity_busca_isbn" >
+        </activity>
+        <activity
+            android:name=".eliminaCliente"
+            android:label="@string/title_activity_elimina_cliente" >
+        </activity>
+        <activity
+            android:name=".listaLibros"
+            android:label="@string/title_activity_lista_libros" >
+        </activity>
+        <activity
+            android:name=".listaEditorial"
+            android:label="@string/title_activity_lista_editorial" >
+        </activity>
+        <activity
+            android:name=".modificarRegistro"
+            android:label="@string/title_activity_modificar_registro" >
+        </activity>
+    </application>
+
+</manifest>

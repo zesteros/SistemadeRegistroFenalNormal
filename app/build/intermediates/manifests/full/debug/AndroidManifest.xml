@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zesters.fenal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="zesters.fenal.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="zesters.fenal.anadeLibro"
+            android:label="@string/title_activity_anade_libro" >
+        </activity>
+        <activity
+            android:name="zesters.fenal.anadeCliente"
+            android:label="@string/title_activity_anade_cliente" >
+        </activity>
+        <activity
+            android:name="zesters.fenal.buscaCliente"
+            android:label="@string/title_activity_busca_cliente" >
+        </activity>
+        <activity
+            android:name="zesters.fenal.buscaISBN"
+            android:label="@string/title_activity_busca_isbn" >
+        </activity>
+        <activity
+            android:name="zesters.fenal.eliminaCliente"
+            android:label="@string/title_activity_elimina_cliente" >
+        </activity>
+        <activity
+            android:name="zesters.fenal.listaLibros"
+            android:label="@string/title_activity_lista_libros" >
+        </activity>
+        <activity
+            android:name="zesters.fenal.listaEditorial"
+            android:label="@string/title_activity_lista_editorial" >
+        </activity>
+        <activity
+            android:name="zesters.fenal.modificarRegistro"
+            android:label="@string/title_activity_modificar_registro" >
+        </activity>
+    </application>
+
+</manifest>
