@@ -21,35 +21,44 @@
         </activity>
         <activity
             android:name=".anadeLibro"
-            android:label="@string/title_activity_anade_libro" >
+            android:label="@string/title_activity_anade_libro"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".anadeCliente"
-            android:label="@string/title_activity_anade_cliente" >
+            android:label="@string/title_activity_anade_cliente" 
+            android:screenOrientation="portrait"
+            >
         </activity>
         <activity
             android:name=".buscaCliente"
-            android:label="@string/title_activity_busca_cliente" >
+            android:label="@string/title_activity_busca_cliente"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".buscaISBN"
-            android:label="@string/title_activity_busca_isbn" >
+            android:label="@string/title_activity_busca_isbn"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".eliminaCliente"
-            android:label="@string/title_activity_elimina_cliente" >
+            android:label="@string/title_activity_elimina_cliente"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".listaLibros"
-            android:label="@string/title_activity_lista_libros" >
+            android:label="@string/title_activity_lista_libros"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".listaEditorial"
-            android:label="@string/title_activity_lista_editorial" >
+            android:label="@string/title_activity_lista_editorial"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".modificarRegistro"
-            android:label="@string/title_activity_modificar_registro" >
+            android:label="@string/title_activity_modificar_registro"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
